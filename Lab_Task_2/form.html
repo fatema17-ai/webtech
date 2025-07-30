@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<p><span class="required">*</span> Denotes Required Information</p>
+
+<h2>Donor Info</h2>
+
+<form>
+
+    <p>First Name* <input type="text"></p>
+    <p>Last Name* <input type="text"></p>
+    <p>Company <input type="text"></p>
+    <p>Address 1* <input type="text"></p>
+    <p>Address 2 <input type="text"></p>
+    <p>City* <input type="text"></p>
+    <p>State* 
+        <select>
+            <option>Select a State</option>
+        </select>
+    </p>
+    <p>Zip Code* <input type="text"></p>
+    <p>Country* 
+        <select>
+            <option>Select a Country</option>
+        </select>
+    </p>
+    <p>Phone <input type="text"></p>
+    <p>Fax <input type="text"></p>
+    <p>Email* <input type="email"></p>
+
+    <p>Donation Amount* 
+        <input type="radio" name="donation"> None
+        <input type="radio" name="donation"> $50
+        <input type="radio" name="donation"> $75
+        <input type="radio" name="donation"> $100
+        <input type="radio" name="donation"> $250
+        <input type="radio" name="donation"> Other
+    </p>
+
+    <p>Other Amount <input type="text"></p>
+
+    <p><input type="checkbox"> I am interested in giving on a regular basis.</p>
+
+    <p>Monthly Credit Card $ <input type="text"> For <input type="text" size="3"> Months</p>
+
+    <h2>Honorarium and Memorial Donation Information</h2>
+
+    <p>I would like to make this donation 
+        <input type="radio" name="honor"> To Honor
+        <input type="radio" name="honor"> In Memory of
+    </p>
+
+    <p>Name <input type="text"></p>
+    <p>Acknowledge Donation to <input type="text"></p>
+    <p>Address <input type="text"></p>
+    <p>City <input type="text"></p>
+    <p>State 
+        <select>
+            <option>Select a State</option>
+        </select>
+    </p>
+    <p>Zip <input type="text"></p>
+
+    <h2>Additional Information</h2>
+
+    <p><input type="checkbox"> I would like my gift to remain anonymous.</p>
+    <p><input type="checkbox"> My employer offers a matching gift program.</p>
+    <p><input type="checkbox"> Skip thank you letter.</p>
+
+    <p>Comments:<br>
+    <textarea rows="5" cols="50"></textarea></p>
+
+    <p>How may we contact you<br>
+        <input type="checkbox"> E-mail
+        <input type="checkbox"> Postal Mail
+        <input type="checkbox"> Telephone
+        <input type="checkbox"> Fax
+    </p>
+
+    <p><input type="checkbox"> I would like to receive newsletters.</p>
+    <p><input type="checkbox"> I would like info about volunteering.</p>
+
+    <p>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Continue">
+    </p>
+
+</form>
+
+</body>
+</html>
